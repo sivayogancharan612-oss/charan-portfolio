@@ -35,10 +35,10 @@ export default function HeroSection() {
 
         {/* Right visual — organic blob with profile image */}
         <div className="flex-1 relative flex justify-center items-center min-h-[260px] md:min-h-[460px]">
-          {/* Yellow blob background */}
-          <div className="absolute w-[260px] h-[260px] md:w-[460px] md:h-[460px] bg-amber-400 rounded-[60%_40%_55%_45%_/_55%_45%_55%_45%] animate-blob shadow-lg shadow-amber-400/20" />
+          {/* Yellow blob background — centered */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[260px] h-[260px] md:w-[460px] md:h-[460px] bg-amber-400 rounded-[60%_40%_55%_45%_/_55%_45%_55%_45%] animate-blob shadow-lg shadow-amber-400/20" />
 
-          {/* Profile image */}
+          {/* Profile image — centered */}
           <div className="relative z-10 w-[220px] h-[220px] md:w-[380px] md:h-[380px] overflow-hidden rounded-[60%_40%_55%_45%_/_55%_45%_55%_45%] animate-blob shadow-2xl border-4 border-white/40">
             <img
               src="/profile.jpg"
