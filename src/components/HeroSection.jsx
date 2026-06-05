@@ -43,7 +43,7 @@ export default function HeroSection() {
             <img
               src="/profile.jpg"
               alt="Charan - Backend Developer"
-              className="w-full h-full object-cover object-[55%_center] scale-105 hover:scale-110 transition-transform duration-700"
+              className="absolute inset-0 w-[130%] h-[130%] object-cover object-[-15%_center] hover:scale-105 transition-transform duration-700"
             />
           </div>
         </div>
