@@ -30,18 +30,18 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="px-8 md:px-16 py-16">
-      <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+    <section id="projects" className="px-5 md:px-16 py-10 md:py-16">
+      <h2 className="font-display text-2xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
         Featured Projects
       </h2>
-      <p className="text-slate-500 mb-10 max-w-lg">
+      <p className="text-slate-500 mb-6 md:mb-10 max-w-lg text-sm md:text-base">
         Case studies that demonstrate structural thinking and engineering discipline.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
         {projects.map((project) => (
           <div
             key={project.title}
-            className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col"
+            className="bg-white rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col"
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-amber-400/10 rounded-xl flex items-center justify-center">

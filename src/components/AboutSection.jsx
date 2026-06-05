@@ -2,11 +2,11 @@ import { GraduationCap, BookOpen } from 'lucide-react'
 
 export default function AboutSection() {
   return (
-    <section id="about" className="px-8 md:px-16 py-16 bg-slate-50">
-      <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-10">
+    <section id="about" className="px-5 md:px-16 py-10 md:py-16 bg-slate-50">
+      <h2 className="font-display text-2xl md:text-4xl font-bold text-slate-900 mb-6 md:mb-10">
         About Me
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
         {/* Education */}
         <div>
           <div className="flex items-center gap-3 mb-6">

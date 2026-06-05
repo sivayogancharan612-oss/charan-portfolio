@@ -20,18 +20,18 @@ const categories = [
 
 export default function TechStack() {
   return (
-    <section className="px-8 md:px-16 py-16 bg-slate-50">
-      <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+    <section className="px-5 md:px-16 py-10 md:py-16 bg-slate-50">
+      <h2 className="font-display text-2xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
         Core Tech Stack
       </h2>
-      <p className="text-slate-500 mb-10 max-w-lg">
+      <p className="text-slate-500 mb-6 md:mb-10 max-w-lg text-sm md:text-base">
         Organized professionally to show you understand development environments.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
         {categories.map((cat) => (
           <div
             key={cat.title}
-            className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-slate-100"
+            className="bg-white rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-md transition-shadow border border-slate-100"
           >
             <div className="w-12 h-12 bg-amber-400/10 rounded-xl flex items-center justify-center mb-4">
               <cat.icon className="text-amber-500" size={22} />

@@ -23,14 +23,14 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer id="contact" className="px-8 md:px-16 py-16">
-      <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+    <footer id="contact" className="px-5 md:px-16 py-10 md:py-16">
+      <h2 className="font-display text-2xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
         Get in Touch
       </h2>
-      <p className="text-slate-500 mb-10 max-w-lg">
+      <p className="text-slate-500 mb-6 md:mb-10 max-w-lg text-sm md:text-base">
         Feel free to reach out — I'm always open to discussing new opportunities.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 mb-8 md:mb-12">
         {socials.map((s) => (
           <a
             key={s.label}

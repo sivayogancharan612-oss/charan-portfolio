@@ -11,7 +11,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="flex items-center justify-between px-8 md:px-16 py-6">
+    <nav className="flex items-center justify-between px-5 md:px-16 py-4 md:py-6">
       <a href="#" className="text-slate-900 font-semibold text-lg tracking-tight">
         Charan
       </a>

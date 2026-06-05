@@ -19,7 +19,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 12px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 24px;
+  }
 }
 
 #root {
