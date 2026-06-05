@@ -46,9 +46,6 @@ export default function HeroSection() {
               className="w-full h-full object-cover object-[30%_center] scale-105 hover:scale-110 transition-transform duration-700"
             />
           </div>
-
-          {/* Decorative small dot */}
-          <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 w-3 h-3 md:w-5 md:h-5 bg-white rounded-full z-20 shadow-md" />
         </div>
       </div>
     </section>
