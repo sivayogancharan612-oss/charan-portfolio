@@ -25,7 +25,7 @@ export default function TechStack() {
         Core Tech Stack
       </h2>
       <p className="text-slate-500 mb-6 md:mb-10 max-w-lg text-sm md:text-base">
-        Organized professionally to show you understand development environments.
+        Organized professionally to show you that I understand development environments.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
         {categories.map((cat) => (
